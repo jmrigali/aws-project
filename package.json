@@ -1,19 +1,26 @@
 {
-  "name": "aws-project",
-  "version": "0.0.0",
+  "name": "auth-example-aws",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "serve": "vite preview"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^3.2.6"
+    "aws-amplify": "^4.2.8",
+    "aws-amplify-vue": "^2.1.5",
+    "axios": "^0.21.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^1.6.1",
-    "@vue/compiler-sfc": "^3.2.6",
-    "typescript": "^4.3.2",
-    "vite": "^2.5.4",
-    "vue-tsc": "^0.2.2"
+    "@vue/cli-plugin-babel": "^4.5.0",
+    "@vue/cli-service": "^4.5.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.32.13",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^3.2.1",
+    "vue-template-compiler": "^2.6.11"
   }
 }
